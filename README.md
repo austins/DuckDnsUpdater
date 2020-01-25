@@ -18,7 +18,7 @@ Append one of the following examples and replace the provided values with your s
 
 #### Single Subdomain
 If you only have one subdomain, the settings would look like this:
-```
+```json
 {
   "Subdomains": ["subdomain"],
   "Token": "example"
