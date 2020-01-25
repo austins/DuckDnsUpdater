@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "DuckDnsUpdater": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
