@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
     <PropertyGroup>
-        <AssemblyVersion>1.0.0.1</AssemblyVersion>
+        <AssemblyVersion>1.0.0.2</AssemblyVersion>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <OutputType>Exe</OutputType>
         <PublishTrimmed>true</PublishTrimmed>
