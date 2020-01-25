@@ -68,6 +68,7 @@ namespace DuckDnsUpdater
                 }
 
                 // Update every 5 minutes.
+                _logger.LogInformation("Update to Duck DNS will be made every 5 minutes.");
                 await Task.Delay(TimeSpan.FromMinutes(5), stoppingToken);
             }
         }
