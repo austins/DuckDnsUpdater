@@ -7,7 +7,7 @@ The IP address is detected automatically by Duck DNS.
 1. Grab the latest version from the [Releases](https://github.com/austins/DuckDnsUpdater/releases) page.
 2. Extract the files into any directory.
 3. [Configure the settings](#configuration) for your subdomains and token.
-4. Run DuckDnsUpdater.exe or create a Windows service.
+4. Run DuckDnsUpdater.exe or [create a Windows service](#create-a-windows-service).
 
 ## Configuration
 Create a file named `appsettings.Production.json`
