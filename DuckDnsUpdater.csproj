@@ -1,7 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
 
     <PropertyGroup>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <PublishTrimmed>true</PublishTrimmed>
+        <PublishReadyToRun>true</PublishReadyToRun>
+        <PublishSingleFile>true</PublishSingleFile>
+        <RuntimeIdentifier>win-x86</RuntimeIdentifier>
         <UserSecretsId>dotnet-DuckDnsUpdater-4532F19B-CC46-45E9-BA8E-53C18B40677F</UserSecretsId>
     </PropertyGroup>
 

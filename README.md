@@ -40,3 +40,7 @@ Multiple subdomains are supported:
 3. Run `sc start DuckDnsUpdater`
 
 To delete the service use: `sc delete DuckDnsUpdater`
+
+## Developer Notes
+#### Build a Release
+Run `dotnet publish -c Release --self-contained true`
