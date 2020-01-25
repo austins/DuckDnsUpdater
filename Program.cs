@@ -13,7 +13,7 @@ namespace DuckDnsUpdater
         public static IHostBuilder CreateHostBuilder(string[] args)
         {
             return Host.CreateDefaultBuilder(args)
-                //.UseWindowsService()
+                .UseWindowsService()
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.Configure<Settings>(hostContext.Configuration);
