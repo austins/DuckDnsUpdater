@@ -5,7 +5,7 @@ The IP address is detected automatically by Duck DNS.
 
 ## Installation
 1. Grab the latest version from the [Releases](https://github.com/austins/DuckDnsUpdater/releases) page.
-2. Extract the files into any directory.
+2. Extract the DuckDnsUpdater.exe into its own new directory.
 3. [Configure the settings](#configuration) for your subdomains and token.
 4. Run DuckDnsUpdater.exe or [create a Windows service](#create-a-windows-service).
 
@@ -35,6 +35,8 @@ Multiple subdomains are supported:
 ```
 
 ## Create a Windows Service
+A Windows service starts the app automatically when the computer boots up.
+
 1. Open a command prompt as administrator.
 2. Run `sc create DuckDnsUpdater binpath= "C:\path\to\DuckDnsUpdater.exe" start= auto`. Replace binpath argument with the location of DuckDnsUpdater.exe. Note: a space is required between the argument's equal sign and the value.
 3. Run `sc start DuckDnsUpdater`
