@@ -10,7 +10,7 @@ The IP address is detected automatically by Duck DNS.
 4. Run DuckDnsUpdater.exe or [create a Windows service](#create-a-windows-service).
 
 ## Configuration
-Create a file named `appsettings.Production.json`
+Create a file named `appsettings.Production.json` in the same directory where DuckDnsUpdater.exe is located.
 
 Find your Duck DNS token on your Duck DNS profile page.
 
